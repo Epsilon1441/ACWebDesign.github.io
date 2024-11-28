@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Allan:wght@400;700&family=DM+Serif+Text:ital@0;1&family=DynaPuff:wght@400..700&family=Faculty+Glyphic&family=Kablammo&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Naskh+Arabic:wght@400..700&family=Noto+Sans+Ethiopic:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Special+Elite&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Allan:wght@400;700&family=DM+Serif+Text:ital@0;1&family=DynaPuff:wght@400..700&family=Faculty+Glyphic&family=Kablammo&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Naskh+Arabic:wght@400..700&family=Noto+Sans+Ethiopic:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Special+Elite&family=Sriracha&display=swap');
+h4{
+    font-family: "DM Serif Text", serif;
+    color: rgb(0, 0, 0) !important;
+    width: 800;
+    opacity: 1.1;
+    font-size: 3.2rem !important;
+}
+p{
+    font-family: "Parkinsans", sans-serif;
+    color: rgb(0, 0, 0) !important;
+     
+    font-size: larger;
+    text-decoration: bold;
+    font-weight: 600;
+}
+
+.fondo{
+    background-image: url(imagenes/fondoquiensoy.png );
+    background-size: cover;
+    height: auto;
+}
+
+.contenedor-data {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Márgenes automáticos para centrar */
+    padding: 20px; /* Espaciado interno */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+    border-radius: 8px; /* Bordes redondeados */
+    text-align: center;
+}
+
+.texto{
+    color: aqua;
+    
+}
+
+ .fotoyo{
+    text-align: center;
+   
+     
+    
+ }
+ .fotoyo:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+    filter: brightness(1.1); /* Aumenta el brillo al pasar el mouse */
+}
+
+
+.banner{
+    text-align: center !important;
+    justify-content: center !important;
+    justify-items: center !important;
+    margin-left: 10px% !important;
+}
+
+
+
+ .vibrating-image {
+  
+    display: inline-block; /* Permite que la imagen se ajuste al contenido */
+    animation: vibrate 0.1s infinite; /* Animación de vibración */
+    height: auto;
+    width: 60px;
+    left: 60%;
+    
+    
+     
+    
+}
+
+.rotating-image {
+    width: 200px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 50%; /* Si deseas que la imagen sea redonda */
+    animation: rotate 5s linear infinite; /* Animación de rotación */
+     
+    
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg); /* Comienza en 0 grados */
+    }
+    to {
+        transform: rotate(360deg); /* Rota hasta 360 grados */
+    }
+}
+
+
+ 
+
+ .col{
+    opacity: 0.5; 
+    width: 50%;  /*ocupa la mitad de la pagina*/
+    border-radius: 40px;
+ }
+
+
+ .btn:hover{
+    scale: 1.1 !important;
+    background-color: rgb(255, 0, 81) !important;
+}
+
